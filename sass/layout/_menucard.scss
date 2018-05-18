@@ -1,0 +1,76 @@
+.menucard {
+    background: url("/images/wood.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+
+    h2 {
+        color: $gold;
+        font-size: 2em;
+    }
+
+    h3 {
+        color: $gold;
+    }
+
+}
+
+.menucard__wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 3em;
+}
+
+.menucard__leftside {
+    background: $white;
+    padding: 1.5em 5em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menucard__rightside {
+    background: url("/images/menucard-placerholder.jpg") no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menucard__menu {
+    text-align: center;
+
+    p:last-of-type::after {
+        content: '';
+        background: url("/images/eoko_guld.svg") no-repeat;
+        padding-left: 20px;
+    }
+}
+
+.menucard__ecology {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+}
+
+.menucard__btn {
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $gold;
+    font-weight: 700;
+    margin-top: 30px;
+    border: 1px solid #333;
+    // transition: all .5s ease;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgba(0,0,0,.7);
+        transition: all .5s ease;
+    }
+}

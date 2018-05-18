@@ -1,8 +1,8 @@
 .header {
     background: url("/images/header-background.jpg") no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
-    background-size: cover;
     color: $white;
     text-align: center;
 
@@ -20,8 +20,12 @@
 }
 
 
-.main-nav {
+.header__nav {
     background-color: rgba(0,0,0,.6);
+
+    @media only screen and (max-width: 760px) {
+        display: none;
+    }
 
     ul {
         list-style: none;
@@ -40,16 +44,19 @@
         font-weight: 400;
         font-size: 1.1em;
 
+        // Needs to be looked at
         &:hover {
-            border-top: 4px solid #fff;
-            color: $white;
-            
+            color: #333;
         }
     }
 }
 
-.header-content {
-        margin: 17em;
+.header__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75%;
 
     h1 {
         font-size: 3em;
@@ -59,6 +66,7 @@
         display: block;
         font-size: 0.5em;
         text-transform: uppercase;
+
     }
 }
 
@@ -66,7 +74,7 @@
     display: inline-block;
     background-color: transparent;
     padding: 10px 30px;
-    font-size: 2em;
+    font-size: 1.6em;
     text-decoration: none;
     text-transform: uppercase;
     color: $white;
