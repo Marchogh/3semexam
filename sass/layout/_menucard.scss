@@ -1,7 +1,8 @@
 .menucard {
-    background: url("/images/wood.jpg") no-repeat;
-    background-size: cover;
     position: relative;
+    background: url("/images/menucard/wood.jpg") no-repeat;
+    background-size: cover;
+   
 
     h2 {
         color: $gold;
@@ -15,11 +16,12 @@
 }
 
 .menucard__wrapper {
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 3em;
+    padding-top: -5vh;
 }
 
 .menucard__leftside {
@@ -27,13 +29,15 @@
     padding: 1.5em 5em;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    margin-top: -7vh;
 }
 
 .menucard__rightside {
-    background: url("/images/menucard-placerholder.jpg") no-repeat;
+    background: url("/images/menucard/menucard-placerholder.jpg") no-repeat;
     background-size: cover;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-top: -7vh;
 }
 
 .menucard__menu {
@@ -41,7 +45,7 @@
 
     p:last-of-type::after {
         content: '';
-        background: url("/images/eoko_guld.svg") no-repeat;
+        background: url("/images/menucard/eoko_guld.svg") no-repeat;
         padding-left: 20px;
     }
 }
@@ -51,8 +55,12 @@
     height: 120px;
     position: absolute;
     left: 50%;
-    top: 40px;
+    top: -30px;
     transform: translateX(-50%);
+
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
 }
 
 .menucard__btn {
