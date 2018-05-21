@@ -1,0 +1,25 @@
+.footer {
+    background: #262526;
+    color: $white;
+    text-align: center;
+    padding-top: 2em;
+
+
+    &__social {
+        height: 5vh;
+        margin-right: 1.5em;
+    }
+
+    &__image {
+        height: 3vh;
+    }
+    
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2em;
+}
+
+
