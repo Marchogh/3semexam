@@ -530,7 +530,15 @@ template {
   background: #262526;
   color: #fff;
   text-align: center;
-  padding-top: 2em; }
+  padding-top: 2em;
+  padding-bottom: 0.5em; }
+  .footer::before {
+    content: '';
+    display: block;
+    width: 80%;
+    border: solid #BFA351 2px;
+    margin: auto;
+    margin-bottom: 2em; }
   .footer__social {
     height: 5vh;
     margin-right: 1.5em; }
@@ -539,5 +547,11 @@ template {
 
 .footer__content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 2em; }
+  grid-template-columns: repeat(3, 250px);
+  margin-top: 2em;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  @media only screen and (max-width: 760px) {
+    .footer__content {
+      grid-template-columns: 1fr; } }

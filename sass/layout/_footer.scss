@@ -3,7 +3,16 @@
     color: $white;
     text-align: center;
     padding-top: 2em;
+    padding-bottom: 0.5em;
 
+    &::before {
+        content: '';
+        display: block;
+        width: 80%;
+        border: solid $gold 2px;
+        margin: auto;
+        margin-bottom: 2em;
+    }
 
     &__social {
         height: 5vh;
@@ -18,8 +27,13 @@
 
 .footer__content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 250px);
     margin-top: 2em;
+    justify-content: center;
+
+    @media only screen and (max-width: 760px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 
