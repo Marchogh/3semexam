@@ -7,10 +7,18 @@
     h2 {
         color: $gold;
         font-size: 2em;
+        margin-bottom: 0;
     }
 
     h3 {
         color: $gold;
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.5em;
+    }
+
+    &__tagline {
+       margin-top: 0.4em;
+       font-style: italic;
     }
 
 }
@@ -22,6 +30,10 @@
     grid-template-columns: 1fr 1fr;
     padding-bottom: 3em;
     padding-top: -5vh;
+
+     @media only screen and (max-width: 760px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .menucard__leftside {
@@ -38,6 +50,10 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-top: -7vh;
+
+     @media only screen and (max-width: 760px) {
+        display: none;
+    }
 }
 
 .menucard__menu {

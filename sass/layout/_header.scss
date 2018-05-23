@@ -5,6 +5,7 @@
     height: 100vh;
     color: $white;
     text-align: center;
+    
 
     .logo {
         background-color: rgba(0,0,0,.6);
@@ -19,9 +20,9 @@
     }
 }
 
-.header__nav {
+#header__nav {
     background-color: rgba(0,0,0,.6);
-
+    
     @media only screen and (max-width: 760px) {
         display: none;
     }
@@ -88,3 +89,10 @@
     }
 }
 
+//Get the navigationbar to stick to top of the screen when scrolling through this class
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
