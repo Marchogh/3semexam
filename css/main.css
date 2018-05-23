@@ -303,7 +303,7 @@ template {
   display: none; }
 
 .header {
-  background: url("/images/header-background.jpg") no-repeat;
+  background: url("../images/header-background.jpg") no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -385,7 +385,7 @@ template {
 
 .menucard {
   position: relative;
-  background: url("/images/menucard/wood.jpg") no-repeat;
+  background: url("../images/menucard/wood.jpg") no-repeat;
   background-size: cover; }
   .menucard h2 {
     color: #BFA351;
@@ -409,7 +409,7 @@ template {
   margin-top: -7vh; }
 
 .menucard__rightside {
-  background: url("/images/menucard/menucard-placerholder.jpg") no-repeat;
+  background: url("../images/menucard/menucard-placerholder.jpg") no-repeat;
   background-size: cover;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -419,7 +419,7 @@ template {
   text-align: center; }
   .menucard__menu p:last-of-type::after {
     content: '';
-    background: url("/images/menucard/eoko_guld.svg") no-repeat;
+    background: url("../images/menucard/eoko_guld.svg") no-repeat;
     padding-left: 20px; }
 
 .menucard__ecology {
@@ -454,7 +454,7 @@ template {
     transition: all .5s ease; }
 
 .booking {
-  background: url("/images/booking/booking-cover.jpg") no-repeat;
+  background: url("../images/booking/booking-cover.jpg") no-repeat;
   background-size: cover;
   width: 100vw;
   height: 60vh;
@@ -484,7 +484,7 @@ template {
       color: #fff; }
 
 .party {
-  background: url("/images/menucard/wood.jpg") no-repeat;
+  background: url("../images/menucard/wood.jpg") no-repeat;
   background-size: cover; }
   .party img {
     width: 100%;
@@ -519,6 +519,44 @@ template {
     color: #BFA351; }
   .party__text p {
     line-height: 1.5; }
+
+.video {
+  text-align: center;
+  padding-bottom: 2em; }
+  .video h2 {
+    color: #BFA351;
+    margin-top: 0;
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive; }
+  .video h3 {
+    color: #BFA351;
+    font-size: 1.7em; }
+  .video p {
+    color: #fff; }
+  .video__btn {
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    border-radius: 4px; }
+    .video__btn:hover {
+      background-color: rgba(0, 0, 0, 0.7); }
+  .video .facebook:before, .video .instagram:before {
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle; }
+  .video .facebook:before {
+    content: url("/images/social/facebook-white.png"); }
+  .video .instagram:before {
+    content: url("/images/social/instagram-white.png"); }
 
 .images {
   display: grid;

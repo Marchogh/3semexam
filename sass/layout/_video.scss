@@ -1,0 +1,55 @@
+.video {
+    text-align: center;
+    padding-bottom: 2em;
+    
+    
+    h2 {
+        color: $gold;
+        margin-top: 0;
+        font-size: 2em;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    h3 {
+        color: $gold;
+        font-size: 1.7em;
+    }
+
+    p {
+        color: $white;
+    }
+
+    &__btn {
+            display: inline-block;
+            background-color: transparent;
+            padding: 10px 30px;
+            font-size: 1.6em;
+            text-decoration: none;
+            color: $white;
+            font-weight: 700;
+            margin-top: 10px;
+            border: 1px solid #fff;
+            transition: all .5s ease;
+            border-radius: 4px;
+        
+            &:hover {
+                background-color: rgba(0,0,0,.7);
+            }
+       
+    }
+
+    .facebook:before, .instagram:before {
+        display: inline-block;
+        padding-right: 10px;
+        vertical-align: middle;
+    }
+    
+    .facebook:before {
+        content: url("/images/social/facebook-white.png");
+    }
+    
+    .instagram:before {
+        content: url("/images/social/instagram-white.png");
+    }
+
+}
