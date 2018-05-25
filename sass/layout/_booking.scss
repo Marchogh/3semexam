@@ -1,37 +1,43 @@
-.booking{
+.booking {
     background: url("../images/booking/bestilbord.png") no-repeat;
     background-size: cover;
     width: 100vw;
     height: 60vh;
     display: grid;
     place-items: center;
-    &__container{
-        margin: 1em;
-         background: rgba(255, 255, 255, 1);
-        padding: 1.5em 5em;
-        text-align: center;
-        &__h1{
-            color: $gold;        }
-        &__p{
-            line-height: 1.6em;
-        }
-        &__button{
-            display: inline-block;
-            background-color: $gold;
-            padding: 10px 30px;
-            font-size: 0.8em;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: $white;
-            font-weight: 700;
-            margin-top: 30px;
-            border-radius: 10px;
 
-            &:hover {
-                background-color: #58231E;
-                transition: all .5s ease;
+        &__container {
+            margin: 1em;
+            background: rgba(255, 255, 255, 1);
+            padding: 1.5em 5em;
+            text-align: center;
+
+            &__h1 {
                 color: $gold;
+            }
+
+            &__p {
+                line-height: 1.6em;
+            }
+
+            &__button {
+                display: inline-block;
+                background-color: $gold;
+                padding: 10px 30px;
+                font-size: 0.8em;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $white;
+                font-weight: 700;
+                margin-top: 30px;
+                border-radius: 10px;
+
+                &:hover {
+                    background-color: #58231E;
+                    transition: all .5s ease;
+                    color: $gold;
+                }
             }
         }
     }
-}
+
