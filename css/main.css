@@ -303,7 +303,7 @@ template {
   display: none; }
 
 .header {
-  background: url("../images/header-background.jpg") no-repeat;
+  background: url("../images/forside.png") no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -414,7 +414,8 @@ template {
   padding-top: -5vh; }
   @media only screen and (max-width: 760px) {
     .menucard__wrapper {
-      grid-template-columns: 1fr; } }
+      grid-template-columns: 1fr;
+      padding: 2em; } }
 
 .menucard__leftside {
   background: #fff;
@@ -422,9 +423,13 @@ template {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   margin-top: -7vh; }
+  @media only screen and (max-width: 760px) {
+    .menucard__leftside {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px; } }
 
 .menucard__rightside {
-  background: url("../images/menucard/menucard-placerholder.jpg") no-repeat;
+  background: url("../images/menucard/dame.png") no-repeat;
   background-size: cover;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -472,7 +477,7 @@ template {
     transition: all .5s ease; }
 
 .booking {
-  background: url("../images/booking/booking-cover.jpg") no-repeat;
+  background: url("../images/booking/bestilbord.png") no-repeat;
   background-size: cover;
   width: 100vw;
   height: 60vh;
@@ -480,7 +485,7 @@ template {
   place-items: center; }
   .booking__container {
     margin: 1em;
-    background: rgba(255, 255, 255, 0.7);
+    background: white;
     padding: 1.5em 5em;
     text-align: center; }
     .booking__container__h1 {
@@ -500,6 +505,8 @@ template {
       border-radius: 10px; }
       .booking__container__button:hover {
         background-color: rgba(0, 0, 0, 0.7);
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
         transition: all .5s ease; }
 
 .party {

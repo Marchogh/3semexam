@@ -1,5 +1,5 @@
 .booking{
-    background: url("../images/booking/booking-cover.jpg") no-repeat;
+    background: url("../images/booking/bestilbord.png") no-repeat;
     background-size: cover;
     width: 100vw;
     height: 60vh;
@@ -7,7 +7,7 @@
     place-items: center;
     &__container{
         margin: 1em;
-        background: rgba(255, 255, 255, 0.7);
+         background: rgba(255, 255, 255, 1);
         padding: 1.5em 5em;
         text-align: center;
         &__h1{
