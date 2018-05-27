@@ -2,15 +2,16 @@
     background: url("../images/menucard/wood.jpg") no-repeat;
     background-size: cover;
 
-    img {
+    &__image {
+        object-fit: cover;
         width: 100%;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        height: 500px;
 
         @media only screen and (max-width: 1065px) {
-            display: none;
-          }
+                     display: none;
+                  }
     }
+
 }
 
 .party__wrapper {
@@ -19,6 +20,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 3em 0;
+    
 
     @media only screen and (max-width: 1065px) {
         grid-template-columns: 1fr;
@@ -29,9 +31,14 @@
 .party__text {
     background: $white;
     font-size: 1em;
-    padding: 2.5em 2.5em 0 2.5em;
+    padding: 0 2.5em;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  
 
     @media only screen and (max-width: 1065px) {
         border-top-left-radius: 10px;
