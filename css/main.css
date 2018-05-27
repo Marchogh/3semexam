@@ -9,11 +9,13 @@
 html {
   line-height: 1.15;
   /* 1 */
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 *,
 *::before,
 *::after {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
 /* Sections
@@ -33,6 +35,7 @@ body {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 1 */
   height: 0;
@@ -67,6 +70,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -199,6 +203,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   color: inherit;
@@ -230,6 +235,7 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -318,8 +324,12 @@ template {
       display: none; } }
   #header__nav ul {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   #header__nav li a {
     text-decoration: none;
@@ -334,9 +344,18 @@ template {
       color: #58231E; }
 
 .header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 75%; }
   .header__content h1 {
@@ -357,6 +376,8 @@ template {
   font-weight: 700;
   margin-top: 30px;
   border: 1px solid #fff;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
   transition: all .5s ease;
   border-radius: 4px; }
   .btn__header:hover {
@@ -430,6 +451,8 @@ template {
   position: absolute;
   left: 50%;
   top: -30px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
   @media only screen and (max-width: 800px) {
     .menucard__ecology {
@@ -449,6 +472,8 @@ template {
   border-radius: 10px; }
   .menucard__btn:hover {
     background-color: #58231E;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
     transition: all .5s ease; }
 
 .booking {
@@ -480,6 +505,8 @@ template {
       border-radius: 10px; }
       .booking__container__button:hover {
         background-color: #58231E;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
         transition: all .5s ease;
         color: #BFA351; }
 
@@ -487,15 +514,12 @@ template {
   background: url("../images/menucard/wood.jpg") no-repeat;
   background-size: cover; }
   .party img {
+    width: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px; }
     @media only screen and (max-width: 1065px) {
       .party img {
         display: none; } }
-  .party__img {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%; }
 
 .party__wrapper {
   max-width: 1400px;
@@ -545,6 +569,8 @@ template {
     font-weight: 700;
     margin-top: 10px;
     border: 1px solid #fff;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
     transition: all .5s ease;
     border-radius: 4px; }
     .video__btn:hover {
@@ -587,9 +613,9 @@ template {
   display: grid;
   grid-template-columns: repeat(3, 250px);
   margin-top: 2em;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
   @media only screen and (max-width: 760px) {
     .footer__content {
       grid-template-columns: 1fr; } }
-
-/*# sourceMappingURL=main.css.map */
