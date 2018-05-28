@@ -9,13 +9,11 @@
 html {
   line-height: 1.15;
   /* 1 */
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
 /* Sections
@@ -35,7 +33,6 @@ body {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 1 */
   height: 0;
@@ -70,7 +67,6 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -203,7 +199,6 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   color: inherit;
@@ -235,7 +230,6 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -324,12 +318,8 @@ template {
       display: none; } }
   #header__nav ul {
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 0;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center; }
   #header__nav li a {
     text-decoration: none;
@@ -339,27 +329,21 @@ template {
     margin: 10px 30px;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 1.1em; }
+    font-size: 1.1em;
+    transition: all .5s ease; }
     #header__nav li a:hover {
       color: #921225; }
 
 .header__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   height: 75%; }
   .header__content h1 {
-    font-size: 3em; }
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; }
   .header__content span {
     display: block;
     font-size: 0.5em;
@@ -373,13 +357,12 @@ template {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 700;
   margin-top: 30px;
   border: 1px solid #fff;
-  -webkit-transition: all .5s ease;
-  -o-transition: all .5s ease;
   transition: all .5s ease;
-  border-radius: 4px; }
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100; }
   .btn__header:hover {
     background-color: #921225; }
 
@@ -451,8 +434,6 @@ template {
   position: absolute;
   left: 50%;
   top: -30px;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
   @media only screen and (max-width: 800px) {
     .menucard__ecology {
@@ -514,7 +495,6 @@ template {
   background: url("../images/menucard/wood.jpg") no-repeat;
   background-size: cover; }
   .party__image {
-    -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
     height: 500px; }
@@ -539,15 +519,8 @@ template {
   padding: 0 2.5em;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center; }
   @media only screen and (max-width: 1065px) {
     .party__text {
@@ -585,8 +558,6 @@ template {
     font-weight: 700;
     margin-top: 10px;
     border: 1px solid #fff;
-    -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
     transition: all .5s ease;
     border-radius: 4px; }
     .video__btn:hover {
@@ -629,9 +600,36 @@ template {
   display: grid;
   grid-template-columns: repeat(3, 250px);
   margin-top: 2em;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center; }
   @media only screen and (max-width: 760px) {
     .footer__content {
       grid-template-columns: 1fr; } }
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 0.8em;
+  border: none;
+  outline: none;
+  background-color: #BFA351;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 30px;
+  border-radius: 10px; }
+  #back-to-top__a {
+    transition: 0.5s;
+    color: #fff;
+    text-decoration: none; }
+  #back-to-top:hover {
+    transition: 0.5s;
+    background-color: #921225;
+    color: #BFA351; }
+
+/*# sourceMappingURL=main.css.map */
