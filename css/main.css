@@ -341,7 +341,7 @@ template {
     font-weight: 400;
     font-size: 1.1em; }
     #header__nav li a:hover {
-      color: #58231E; }
+      color: #921225; }
 
 .header__content {
   display: -webkit-box;
@@ -381,7 +381,7 @@ template {
   transition: all .5s ease;
   border-radius: 4px; }
   .btn__header:hover {
-    background-color: #58231E; }
+    background-color: #921225; }
 
 .sticky {
   position: fixed;
@@ -471,7 +471,7 @@ template {
   border: 1px solid #333;
   border-radius: 10px; }
   .menucard__btn:hover {
-    background-color: #58231E;
+    background-color: #921225;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease; }
@@ -504,7 +504,7 @@ template {
       margin-top: 30px;
       border-radius: 10px; }
       .booking__container__button:hover {
-        background-color: #58231E;
+        background-color: #921225;
         -webkit-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;

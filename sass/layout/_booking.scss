@@ -33,7 +33,7 @@
                 border-radius: 10px;
 
                 &:hover {
-                    background-color: #58231E;
+                    background-color: $red;
                     transition: all .5s ease;
                     color: $gold;
                 }

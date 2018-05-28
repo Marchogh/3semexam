@@ -46,7 +46,7 @@
 
         
         &:hover {
-            color: #58231E;
+            color: $red;
         }
     }
 }
@@ -85,7 +85,7 @@
     border-radius: 4px;
 
     &:hover {
-        background-color: #58231E;
+        background-color: $red;
     }
 }
 
