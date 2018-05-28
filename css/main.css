@@ -600,3 +600,32 @@ template {
   @media only screen and (max-width: 760px) {
     .footer__content {
       grid-template-columns: 1fr; } }
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 0.8em;
+  border: none;
+  outline: none;
+  background-color: #BFA351;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 30px;
+  border-radius: 10px; }
+  #back-to-top__a {
+    transition: 0.5s;
+    color: #fff;
+    text-decoration: none; }
+  #back-to-top:hover {
+    transition: 0.5s;
+    background-color: #921225;
+    color: #BFA351; }
+
+/*# sourceMappingURL=main.css.map */
