@@ -2,7 +2,6 @@
     position: relative;
     background: url("../images/menucard/wood.jpg") no-repeat;
     background-size: cover;
-   
 
     h2 {
         color: $gold;
@@ -24,7 +23,7 @@
 }
 
 .menucard__wrapper {
-    max-width: 1400px;
+    max-width: 1350px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,7 +52,6 @@
 
 .menucard__rightside {
     background: url("../images/menucard/dame.png") no-repeat;
-    background-size: cover;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-top: -7vh;
