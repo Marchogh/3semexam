@@ -526,7 +526,7 @@ template {
         display: none; } }
 
 .party__wrapper {
-  max-width: 1400px;
+  max-width: 1350px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
