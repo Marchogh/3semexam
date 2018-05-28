@@ -6,6 +6,8 @@
     <title>Restaurant - L'estragon</title>
     <meta name="description" content="Eksklusiv restaurant Med plads til bare 22 gæster giver det lille fransk inspirede lokale gode rammer for nydelsen af vore udsøgte retter og vine."/>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 <body>
     
@@ -17,11 +19,11 @@
     <!-- Navbar -->
         <nav id="header__nav">
             <ul>
-                <li><a href="#menucard">Koncept</a></li>
-                <li><a href="#booking">Bestil Bord</a></li>
-                <li><a href="#location">Find os her</a></li>
-                <li><a href="#party">Selskaber</a></li>
-                <li><a href="#contact">kontakt</a></li>
+                <li><a data-scroll href="#menucard">Menukort</a></li>
+                <li><a data-scroll href="#booking">Bestil Bord</a></li>
+                <li><a data-scroll href="#location">Find os her</a></li>
+                <li><a data-scroll href="#party">Selskaber</a></li>
+                <li><a data-scroll href="#contact">Kontakt</a></li>
             </ul>
         </nav>  
     <div class="header__content">
@@ -165,8 +167,11 @@
     </div>
 </div>
     </footer>
-
-    <script src="js/sticky-navigation.js"></script>
+    
     <script src="js/to-top.js"></script>
+    <script src="js/sticky-navigation.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+  
+    
 </body>
 </html>
