@@ -31,7 +31,7 @@
         </nav>  
     <div class="header__content">
         <h1><span>Velkommen til</span>Restaurant L'estragon</h1>
-        <a class="btn btn__header" href="">Bestil bord</a>
+        <a class="btn btn__header" href="https://module.lafourchette.com/da_DK/module/74381-603a4#/1293324/dhp" target="_blank">Bestil bord</a>
     </div>    
     </header>
 
@@ -95,7 +95,7 @@
         <div class="booking__container">
             <h1 class="booking__container__h1">Bestil bord</h1>
             <p class="booking__container__p">Ønsker du at bestille bord til flere end 6 personer <br> Så kontakt os venligst på Tlf: 86 12 40 66</p>
-            <a class="booking__container__button" href="http://www.lestragon.dk/wp-content/uploads/2017/12/lEstragons-vinkort.pdf.pdf" target="_blank">Bestil bord</a>
+            <a class="booking__container__button" href="https://module.lafourchette.com/da_DK/module/74381-603a4#/1293324/dhp" target="_blank">Bestil bord</a>
         </div>
     </section>
 
@@ -106,7 +106,7 @@
     <section id="party" class="party">
         <div class="party__wrapper">
             
-        <img class="party__image" src="../3semexam/images/party/facade.png" alt="">
+        <img class="party__image" src="../3semexam/images/party/facade.png" alt="Facade af Lestragon">
       
         <div class="party__text">
         <cms:editable name='selskaber' type='richtext'>
