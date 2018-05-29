@@ -1,6 +1,6 @@
 # 3semexam
 
--Lavet af Nikolaj, Sminon & Marc. 
+-Lavet af Nikolaj, Simon & Marc. 
 
 Url: http://www.lestragon.beautybyserrani.dk/
 
