@@ -2,10 +2,10 @@
 
 -Lavet af Nikolaj, Simon & Marc. 
 
-Url: http://www.lestragon.beautybyserrani.dk/
+Url: http://lestragon.kiil.nu/
 
 Login til Couch CMS:
-Url: http://www.lestragon.beautybyserrani.dk/couch
+Url: http://lestragon.kiil.nu/couch
 
 Username: Marchogh
 Password: lestragon123
