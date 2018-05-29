@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Restaurant - L'estragon</title>
     <meta name="description" content="Eksklusiv restaurant Med plads til bare 22 gæster giver det lille fransk inspirede lokale gode rammer for nydelsen af vore udsøgte retter og vine."/>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../3semexam/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
@@ -154,24 +154,24 @@
 
        <a href="https://www.facebook.com/Restaurant-Lestragon-168477629852832/" target="_blank"><img class="footer__social" src="../3semexam/images/social/facebook.svg" alt="Facebook L'estragon"></a>
        <a href="https://www.instagram.com/lestragonaarhus/" target="_blank"><img class="footer__social" src="../3semexam/images/social/instagram.svg" alt="Instagram L'estragon"></a>
-
+    
         <div class="footer__content">
     <div class="location">
-        <img class="footer__image" src="../images/social/location.svg" alt="">
+        <img class="footer__image" src="../3semexam/images/social/location.svg" alt="">
         <p>Restaurant L'estragon</p>
         <p>Klostergade 6,</p>
         <p>8000 Aarhus C</p>
     </div>
 
     <div class="opening">
-        <img class="footer__image" src="../images/social/clock.svg" alt="">
+        <img class="footer__image" src="../3semexam/images/social/clock.svg" alt="">
         <p>Åbningstider</p>
         <p>Man-Søn: 18:00-02:00</p>
         <p>Lørdag: Frokost 12:00-15:00</p>
      </div>
 
     <div class="contact">
-        <img class="footer__image" src="../images/social/phone.svg" alt="">
+        <img class="footer__image" src="../3semexam/images/social/phone.svg" alt="">
         <p>Kontakt</p>
         <p>Tlf: 86 12 40 66</p>
         <p>info@lestragon.dk</p>

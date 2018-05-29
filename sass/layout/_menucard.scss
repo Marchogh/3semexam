@@ -44,7 +44,7 @@
     border-bottom-left-radius: 10px;
     margin-top: -7vh;
 
-    @media only screen and (max-width: 760px) {
+    @media only screen and (max-width: 1070px) {
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
     }
@@ -79,7 +79,7 @@
     top: -30px;
     transform: translateX(-50%);
 
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1070px) {
         display: none;
     }
 }
