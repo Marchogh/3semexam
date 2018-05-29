@@ -15,7 +15,7 @@
 <body>
     
     <!-- Header starts here -->
-    <header class="header">
+    <header id="top" class="header">
         <div class="logo">
         <img  src="images/lestragon-logo.png" alt="Logo L'estragon">
     </div>
@@ -51,7 +51,7 @@
         </div>
 
         <div class="menucard__menu">
-            <img src="../images/menucard/Flower.png" alt="">
+            <img src="../3semexam/images/menucard/Flower.png" alt="Flower">
             <cms:editable name='menukort' type='richtext'>
             <h3>Maj-menu</h3>
             <h4>Start aftenen med bobler og snacks 115 kr.</h4>
@@ -87,7 +87,7 @@
          <div class="menucard__rightside">
          </div>
 
-         <img class="menucard__ecology" src="../images/menucard/eoko_guld.svg" alt="">
+         <img class="menucard__ecology" src="../3semexam/images/menucard/eoko_guld.svg" alt="Guldmærke økologi">
         </div>
     </section>
 
@@ -106,7 +106,7 @@
     <section id="party" class="party">
         <div class="party__wrapper">
             
-        <img class="party__image" src="../images/party/facade.png" alt="">
+        <img class="party__image" src="../3semexam/images/party/facade.png" alt="">
       
         <div class="party__text">
         <cms:editable name='selskaber' type='richtext'>
@@ -127,31 +127,33 @@
 
         <h3 class="video__social">Følg os på de sociale medier</h3>
         <p class="video__p">Du kan finde os på Facebook og Instagram</p>
-        <a class="video__btn facebook" href="">Facebook</a>
-        <a class="video__btn instagram" href="">Instagram</a>
+        <a class="video__btn facebook" href="https://www.facebook.com/Restaurant-Lestragon-168477629852832/">Facebook</a>
+        <a class="video__btn instagram" href="https://www.instagram.com/lestragonaarhus/">Instagram</a>
     </div>
 </section>
         
 
     <section class="images">
-        <img src="../images/instagram/insta1.jpg" alt="">
-        <img src="../images/instagram/insta2.jpg" alt="">
-        <img src="../images/instagram/insta3.jpg" alt="">
-        <img src="../images/instagram/insta4.jpg" alt="">
-        <img src="../images/instagram/insta5.jpg" alt="">
-        <img src="../images/instagram/insta6.jpg" alt="">
-        <img src="../images/instagram/insta7.jpg" alt="">
-        <img src="../images/instagram/insta8.jpg" alt="">
-        <img src="../images/instagram/insta9.jpg" alt="">
-        <img src="../images/instagram/insta10.jpg" alt="">
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img  src="../3semexam/images/instagram/insta1.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta2.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta3.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta4.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta5.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta6.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta7.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta8.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta9.jpg" alt="Instragram billede"></a>
+    <a class="images__fixborder" href="https://www.instagram.com/lestragonaarhus/"><img src="../3semexam/images/instagram/insta10.jpg" alt="Instragram billede"></a>
     </section>
-<a id="back-to-top__a" href="#">
-    <section id="back-to-top">Top</section>
+<a data-scroll id="back-to-top__a" href="#top">
+    <section id="back-to-top">
+            <img class="arrow-top" src="images/arrow-up.svg" alt="Go back to top">
+    </section>
 </a>
     <footer id="contact" class="footer">
 
-       <a href="https://www.facebook.com/Restaurant-Lestragon-168477629852832/" target="_blank"><img class="footer__social" src="../images/social/facebook.svg" alt="Facebook L'estragon"></a>
-       <a href="https://www.instagram.com/lestragonaarhus/" target="_blank"><img class="footer__social" src="../images/social/instagram.svg" alt="Instagram L'estragon"></a>
+       <a href="https://www.facebook.com/Restaurant-Lestragon-168477629852832/" target="_blank"><img class="footer__social" src="../3semexam/images/social/facebook.svg" alt="Facebook L'estragon"></a>
+       <a href="https://www.instagram.com/lestragonaarhus/" target="_blank"><img class="footer__social" src="../3semexam/images/social/instagram.svg" alt="Instagram L'estragon"></a>
 
         <div class="footer__content">
     <div class="location">

@@ -5,4 +5,14 @@
     img {
         width: 100%;
     }
+
+    &__fixborder{
+       //Fjerner en hvid understreg under billederne
+        img
+        {
+        display: block;
+        }
+        
+      // background-color: $dark-grey;
+    }
 }
