@@ -16,11 +16,18 @@
     
     <!-- Header starts here -->
     <header id="top" class="header">
+        <button class="menu-button">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 24" enable-background="new 0 0 24 24" width="40px" height="40px" class=""><g><g>
+                    <path d="M24,3c0-0.6-0.4-1-1-1H1C0.4,2,0,2.4,0,3v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V3z" data-original="#000000" class="active-path" data-old_color="#bfa351" fill="#bfa351"/>
+                    <path d="M24,11c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V11z" data-original="#000000" class="active-path" data-old_color="#bfa351" fill="#bfa351"/>
+                    <path d="M24,19c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V19z" data-original="#000000" class="active-path" data-old_color="#bfa351" fill="#bfa351"/>
+                  </g></g> </svg>
+                </button>
         <div class="logo">
         <img  src="images/lestragon-logo.png" alt="Logo L'estragon">
     </div>
     <!-- Navbar -->
-        <nav id="header__nav">
+        <nav class="header__nav" class="nav-is-open" id="sticky">
             <ul>
                 <li><a data-scroll href="#menucard">Menukort</a></li>
                 <li><a data-scroll href="#booking">Bestil Bord</a></li>
@@ -152,8 +159,8 @@
 </a>
     <footer id="contact" class="footer">
 
-       <a href="https://www.facebook.com/Restaurant-Lestragon-168477629852832/" target="_blank"><img class="footer__social" src="../3semexam/images/social/facebook.svg" alt="Facebook L'estragon"></a>
-       <a href="https://www.instagram.com/lestragonaarhus/" target="_blank"><img class="footer__social" src="../3semexam/images/social/instagram.svg" alt="Instagram L'estragon"></a>
+       <a href="https://www.facebook.com/Restaurant-Lestragon-168477629852832/" target="_blank"><img class="footer__social" src="/images/social/facebook.svg" alt="Facebook L'estragon"></a>
+       <a href="https://www.instagram.com/lestragonaarhus/" target="_blank"><img class="footer__social" src="/images/social/instagram.svg" alt="Instagram L'estragon"></a>
     
         <div class="footer__content">
     <div class="location">
@@ -179,6 +186,7 @@
 </div>
     </footer>
     
+    <script src="js/plain-js-nav.js"></script>
     <script src="js/to-top.js"></script>
     <script src="js/sticky-navigation.js"></script>
     <script src="js/smooth-scroll.js"></script>
