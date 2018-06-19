@@ -34,6 +34,7 @@
                 <li><a data-scroll href="#location">Find os her</a></li>
                 <li><a data-scroll href="#party">Selskaber</a></li>
                 <li><a data-scroll href="#contact">Kontakt</a></li>
+                <li><a href="https://www.facebook.com/Restaurant-Lestragon-168477629852832/">Facebook</a></li>
             </ul>
         </nav>  
     <div class="header__content">
@@ -127,7 +128,7 @@
 
         <div class="video">
         <h2 class="video__headline">Video om restaurant L'estragon</h2>
-        <p class="video__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor delectus id soluta. Nam, quae corporis!</p>
+        <p class="video__p">Mærk oplevelsen af den intense restaurant gennem denne video</p>
        
         <iframe class="video__iframe" src="https://player.vimeo.com/video/271854752" width="840" height="560" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
      
@@ -164,21 +165,21 @@
     
         <div class="footer__content">
     <div class="location">
-        <img class="footer__image" src="../3semexam/images/social/location.svg" alt="">
+        <img class="footer__image" src="../3semexam/images/social/location.svg" alt="Location">
         <p>Restaurant L'estragon</p>
         <p>Klostergade 6,</p>
         <p>8000 Aarhus C</p>
     </div>
 
     <div class="opening">
-        <img class="footer__image" src="../3semexam/images/social/clock.svg" alt="">
+        <img class="footer__image" src="../3semexam/images/social/clock.svg" alt="Clock">
         <p>Åbningstider</p>
         <p>Man-Søn: 18:00-02:00</p>
         <p>Lørdag: Frokost 12:00-15:00</p>
      </div>
 
     <div class="contact">
-        <img class="footer__image" src="../3semexam/images/social/phone.svg" alt="">
+        <img class="footer__image" src="../3semexam/images/social/phone.svg" alt="Phone">
         <p>Kontakt</p>
         <p>Tlf: 86 12 40 66</p>
         <p>info@lestragon.dk</p>
